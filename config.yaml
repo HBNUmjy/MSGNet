@@ -1,0 +1,8 @@
+data_dir: ./MUD3_final
+epochs: 100
+batch_size: 6
+learning_rate: 1.0e-5
+device: cuda
+save_dir: save_dir
+seed: 42
+latency_name: MSGNet

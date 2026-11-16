@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and IDEs
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Datasets and serialized features
+MUD3_final/
+data/
+datasets_raw/
+*.pkl
+*.pickle
+
+# Model artifacts and experiment outputs
+save_dir/
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+latency_*.csv
+
+# Manuscripts and local notes
+*.pdf
+paper_text.txt
+
+# OS files
+.DS_Store
+Thumbs.db
